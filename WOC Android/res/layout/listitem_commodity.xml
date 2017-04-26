@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_title_text_view"
+        android:padding="12sp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/commodity_information"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="240dip"
+        android:layout_height="120dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/azure"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/image_commodity"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#323232"
+        android:orientation="vertical"
+        android:padding="0.5dp" >
+
+        <TextView
+            android:id="@+id/commodity_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.5dp"
+            android:background="@color/azure"
+            android:padding="8dp"
+            android:text="@string/commodity_name"
+            android:textColor="@color/blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/commodity_describe"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.5dp"
+            android:background="@color/azure"
+            android:padding="8dp"
+            android:text="@string/commodity_describe"
+            android:textColor="@color/blue"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.5dp"
+            android:background="@color/azure"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/commodity_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/commodity_price"
+                android:textColor="@color/blue" />
+
+            <TextView
+                android:id="@+id/commodity_owner_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/commodity_owner_name"
+                android:textColor="@color/blue" />
+
+            <TextView
+                android:id="@+id/commodity_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/commodity_location"
+                android:textColor="@color/blue" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

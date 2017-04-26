@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5000"
+        android:padding="12sp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="商品详情"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:layout_centerVertical="true" />
+        
+        </RelativeLayout>
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:orientation="horizontal"
+            android:background="#f8ffd5">
+            <ImageView android:id="@+id/img_detail"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:contentDescription="@null"
+                android:src="@drawable/detail"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#323232"
+            android:padding="0.5dp">
+            <TextView android:id="@+id/comname_detail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="真三国无双"
+                android:padding="8dp"
+                android:layout_marginTop="0.5dp"
+                android:background="#F1F1F1"/>
+            <TextView android:id="@+id/descibe_detail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="以一个武将的力量打赢一场战争，俗称割草，也是醉了。"
+                android:padding="8dp"
+                android:background="#F1F1F1"
+                android:layout_marginTop="0.5dp"/>
+            <RelativeLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="#F1F1F1"
+                android:layout_marginTop="0.5dp">
+                <TextView android:id="@+id/price_detail"
+                    android:text="$100"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/seller_detail"
+                    android:text="许精策"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/location_detail"
+                    android:text="天津"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#b1b1b1"
+                android:layout_marginTop="0.5dp"
+                android:padding="10dp">
+                <Button android:id="@+id/buy_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:layout_marginLeft="15dp"
+                    android:padding="8dp"
+                    android:text="现在购买"
+                    android:background="@drawable/button_buy"
+                    />
+                <Button android:id="@+id/sellerinfo_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:layout_marginLeft="70dp"
+                    android:padding="8dp"
+                    android:text="查看卖家"
+                    android:background="@drawable/button_sellerinfo"/>
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

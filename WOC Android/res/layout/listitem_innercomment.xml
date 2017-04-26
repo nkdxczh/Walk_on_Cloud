@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#DDDDDD"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/innercomment_sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="发评论人"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="回复"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/innercomment_receiver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="接收评论人"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:gravity="center"
+            android:text="："
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/innercomment_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:text="评论内容"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/innercomment_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="评论时间"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

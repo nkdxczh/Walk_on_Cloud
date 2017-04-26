@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#757575"
+    android:padding="1dp" >
+    <LinearLayout android:background="#ececec"
+        android:layout_width="fill_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+        <Button android:id="@+id/bottom_btnStore1"
+            android:background="@drawable/shopbutton"
+            android:layout_weight="1"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/bottom_btnForum1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/forumbutton" />
+
+        <Button android:id="@+id/bottom_btnPerson1"
+            android:background="@drawable/personbutton"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        
+        <Button android:id="@+id/bottom_btnTalk1"
+            android:background="@drawable/messagebutton"
+            android:layout_marginLeft="20dp"
+            android:paddingRight="12dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_marginTop="30dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        tools:ignore="UselessParent" >
+
+        <LinearLayout
+            
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="0dip"
+            android:paddingLeft="2dip"
+            android:paddingTop="2dip" >
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:contentDescription="@string/content_description"
+                android:scaleType="fitCenter"
+                android:src="@drawable/information_person_icon" />
+
+            <TextView
+                android:id="@+id/detail_information"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:background="@drawable/style_title_text_view"
+                android:text="@string/information_person_detial_information"
+                android:textColor="@color/white"
+                android:textSize="18dip" />
+        </LinearLayout>
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lightgray" />
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:contentDescription="@string/content_description"
+                android:scaleType="fitCenter"
+                android:background="@color/white"/>
+
+        <LinearLayout
+            
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="0dip"
+            android:paddingLeft="2dip"
+            android:paddingTop="2dip" >
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:contentDescription="@string/content_description"
+                android:scaleType="fitCenter"
+                android:src="@drawable/information_person_icon" />
+
+            <TextView
+                android:id="@+id/update_information"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:background="@drawable/style_title_text_view"
+                android:text="@string/information_person_update_information"
+                android:textColor="@color/white"
+                android:textSize="18dip" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lightgray" />
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:contentDescription="@string/content_description"
+                android:scaleType="fitCenter"
+                android:background="@color/white"/>
+        <LinearLayout
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="0dip"
+            android:paddingLeft="2dip"
+            android:paddingTop="2dip" >
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:contentDescription="@string/content_description"
+                android:scaleType="fitCenter"
+                android:src="@drawable/information_person_icon" />
+
+            <TextView
+                android:id="@+id/update_password"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:background="@drawable/style_title_text_view"
+                android:text="@string/information_person_update_password"
+                android:textColor="@color/white"
+                android:textSize="18dip" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lightgray" />
+                <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:contentDescription="@string/content_description"
+                android:scaleType="fitCenter"
+                android:background="@color/white"/>
+
+        <LinearLayout
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="0dip"
+            android:paddingLeft="2dip"
+            android:paddingTop="2dip" >
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:contentDescription="@string/content_description"
+                android:scaleType="fitCenter"
+                android:src="@drawable/information_person_icon" />
+
+            <TextView
+                android:id="@+id/friend_information"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:clickable="true"     
+                android:background="@drawable/style_title_text_view"          
+                android:text="@string/information_person_friend_infromation"
+                android:textColor="@color/white"
+                android:textSize="18dip" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lightgray" />
+    </LinearLayout>
+
+</LinearLayout>

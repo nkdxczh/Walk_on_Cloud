@@ -1,0 +1,180 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.gr.wocandroid.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    <!-- 使用网络功能所需权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <!-- SDK离线地图和cache功能需要读写外部存储器 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" >
+    </uses-permission>
+    <!-- 获取设置信息和详情页直接拨打电话需要以下权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+    <!-- 使用定位功能所需权限,已集成百度定位SDK,不使用定位功能可去掉以下6项 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </permission>
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.client.TalkActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.ForumMovieActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.ForumDetailActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.ForumReleaseActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.ForumMusicActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.ForumEducationActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.ForumBookActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.ForumActivityActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.ForumChatActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.ForumSearchActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.example.client.FriendsActivity" >
+        </activity>
+        <activity android:name="com.example.client.FirstActivity" >
+        </activity>
+        <activity android:name="org.gr.wocandroid.activity.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.gr.wocandroid.activity.RegistActivity" >
+        </activity>
+        <activity android:name="org.gr.wocandroid.activity.StoreActivity" >
+        </activity>
+        <activity android:name="org.gr.wocandroid.activity.DetailActivity" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.ChangePasswordActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.PersonDetailInformationActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.ChangeDetailInformationActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.PersonFriendsInformationActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.PersonSellCommoditiesActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.PersonExchangeCommoditiesActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.PersonFloatCommoditiesActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.PersonAttentionCommoditiesActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.PersonOrdersActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.PersonReleasePostActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.PersonReadPostActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.PersonAttentionPostActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.gr.wocandroid.activity.InformationActivity"
+            android:label="@string/app_name" />
+        <activity android:name="org.gr.wocandroid.activity.ReleaseActivity" >
+        </activity>
+        <activity android:name="org.gr.wocandroid.activity.OrderActivity" >
+        </activity>
+        <activity android:name="org.gr.wocandroid.activity.SearchResultActivity" >
+        </activity>
+         <activity
+            android:name="org.gr.wocandroid.activity.LocationActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+    </application>
+
+</manifest>

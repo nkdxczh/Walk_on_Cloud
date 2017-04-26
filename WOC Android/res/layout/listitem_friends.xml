@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <!-- 左半部分 -->
+        <!-- 设置用户的头像招聘，使用ImageView组件 -->
+
+        <ImageView
+            android:id="@+id/imgPhoto"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/image_user" />
+
+        <!-- 右半部分 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp" >
+
+            <!-- 上半部分 -->
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:collapseColumns="2"
+                android:stretchColumns="1" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/friend_nickname"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/blue"
+                        android:text="@string/friend_nickname"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/friend_account"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_weight="1"
+                        android:textSize="12dip"
+                        android:textColor="@color/blue"
+                        android:text="@string/friend_account" />
+                </TableRow>
+            </TableLayout>
+
+            <!-- 下半部分 -->
+            <!-- 设置一个TextView组件对象 -->
+
+            <TextView
+                android:id="@+id/friend_information"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textColor="@color/blue"
+                android:text="@string/friend_information" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

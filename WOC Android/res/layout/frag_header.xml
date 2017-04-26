@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="#FF5000" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/store"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:layout_centerVertical="true" />
+
+        <Spinner
+            android:id="@+id/shopselect"
+            android:layout_marginTop="0dp"
+            android:layout_width="80dp"
+            android:layout_height="40dp" 
+            android:textAlignment="center"
+            android:background="#FF5000"
+            android:dropDownWidth="wrap_content"
+            android:gravity="center"
+            
+            />
+    </RelativeLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#424242"
+        android:orientation="horizontal">
+        <EditText android:id="@+id/searchcontent"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:hint="请输入搜索内容"
+            android:textSize="20sp"
+            android:background="#dcdcdc"/>
+        <Button android:id="@+id/searchbutton"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="0.5dp"
+            android:background="@drawable/searchbutton"/>
+        
+    </LinearLayout>
+    <RadioGroup android:id="@+id/seachtype"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp">
+            <RadioButton android:id="@+id/keyword"
+                android:text="关键字"/>
+            <RadioButton android:id="@+id/location"
+                android:text="地区"/>
+            <RadioButton android:id="@+id/type"
+                android:text="种类"/>
+            <RadioButton android:id="@+id/seller"
+                android:text="卖家"/>
+        </RadioGroup>
+        <!-- <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:padding="0.5dp">
+            <Button android:id="@+id/twohand"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="交易商品"
+                android:background="#f1f1f1"/>
+            <Button android:id="@+id/exchange"
+                android:layout_weight="1"
+                android:layout_marginLeft="0.5dp"
+                android:layout_height="wrap_content"
+                android:text="交换商品"
+                android:background="#f1f1f1"/>
+            <Button android:id="@+id/float_store"
+                android:layout_weight="1"
+                android:layout_marginLeft="0.5dp"
+                android:layout_height="wrap_content"
+                android:text="漂流物品"
+                android:background="#f1f1f1"/>
+        </LinearLayout> -->
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<RelativeLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <LinearLayout
+        android:id="@+id/information_first_layout" 
+        android:orientation="vertical"
+        android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:layout_alignParentTop="true" 
+        >
+        <include layout="@layout/top1"/>
+        <include layout="@layout/top2"/>
+    </LinearLayout>
+    <org.gr.wocandroid.design.MyScrollLayout    
+	  xmlns:android="http://schemas.android.com/apk/res/android"    
+	  android:id="@+id/ScrollLayout"    
+	  android:layout_width="fill_parent"    
+	  android:layout_below="@id/information_first_layout"
+	  android:layout_alignParentBottom="true" 
+	  android:layout_height="fill_parent">    
+      <org.gr.wocandroid.design.MyFrameLayout    
+	    android:background="@color/white"
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="wrap_content">
+ 	    <include layout="@layout/information_person"/>
+	  </org.gr.wocandroid.design.MyFrameLayout> 
+        
+	  <org.gr.wocandroid.design.MyFrameLayout    
+	    android:background="@color/white"
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="wrap_content">
+ 	    <include layout="@layout/information_store"/>
+	  </org.gr.wocandroid.design.MyFrameLayout>    
+	      
+      <org.gr.wocandroid.design.MyFrameLayout    
+	    android:background="@color/white"
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="wrap_content">
+ 	    <include layout="@layout/information_forum"/>
+	  </org.gr.wocandroid.design.MyFrameLayout> 
+	</org.gr.wocandroid.design.MyScrollLayout> 
+</RelativeLayout>
+

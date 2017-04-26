@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/comname_release"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_back"
+            android:hint="请输入发布商品的名称"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:layout_margin="10dp" />
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Spinner android:id="@+id/yongtu_release"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:dropDownWidth="fill_parent"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_back"
+            />
+        <Spinner android:id="@+id/leixing_release"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:dropDownWidth="fill_parent"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_back"
+            />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/location_release"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_back"
+            android:hint="请输入发布商品所属地区"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/price_release"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_back"
+            android:hint="请输入发布商品价格"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:layout_margin="10dp" />
+        <EditText
+            android:id="@+id/describe_release"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_back"
+            android:hint="请输入发布商品详细描述"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:layout_margin="10dp" />
+        <Button android:id="@+id/release_release"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_buy"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="立即发布"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,714 @@
+FORM {
+	PADDING-TOP: 20px
+}
+.red {
+	COLOR: #f66
+}
+.bg_error {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 300px; BACKGROUND: url(input_error.png) no-repeat 0px 0px; HEIGHT: 35px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.year_bg_error {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 106px; BACKGROUND: url(input_error.png) no-repeat 0px -36px; HEIGHT: 23px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.month_day_bg_error {
+	BACKGROUND: url(input_error.png) no-repeat -107px -36px
+}
+.box .ipt_box .ipt_self .self_email_bg_error {
+	BACKGROUND: url(input_error.png) no-repeat 0px -114px
+}
+.box_9 .code_bg .code_ipt_error {
+	BACKGROUND: url(input_error.png) no-repeat 0px -60px
+}
+.box {
+	HEIGHT: auto; CLEAR: both
+}
+.box .item {
+	TEXT-ALIGN: right; LINE-HEIGHT: 20px; WIDTH: 179px; PADDING-RIGHT: 10px; FLOAT: left; HEIGHT: 43px; FONT-SIZE: 14px; PADDING-TOP: 7px; _height: 44px; _padding-top: 8px
+}
+.box .ipt_box {
+	POSITION: relative; WIDTH: 306px; FLOAT: left; HEIGHT: 50px
+}
+.box .ipt_box INPUT.txt {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 8px; LINE-HEIGHT: 18px; PADDING-LEFT: 8px; WIDTH: 284px; PADDING-RIGHT: 8px; BACKGROUND: url(ipt.png) no-repeat 0px 0px; HEIGHT: 19px; FONT-SIZE: 14px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 8px; _background-attachment: fixed
+}
+.box .ipt_box INPUT.focus {
+	BACKGROUND: url(ipt.png) no-repeat 0px -35px; _background-attachment: fixed
+}
+.box .ipt_box INPUT.new_txt {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 8px; LINE-HEIGHT: 18px; PADDING-LEFT: 8px; WIDTH: 284px; PADDING-RIGHT: 8px; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 18px; FONT-SIZE: 14px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 8px; _height: 17px
+}
+.box .ipt_box .bg_txt {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 300px; BACKGROUND: url(ipt.png) no-repeat 0px 0px; HEIGHT: 35px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.box .ipt_box .bg_focus {
+	BACKGROUND: url(ipt.png) no-repeat 0px -35px
+}
+.box .ipt_box INPUT.radio {
+	VISIBILITY: hidden
+}
+.box .info {
+	WIDTH: 236px; FLOAT: left; HEIGHT: 38px
+}
+.box .nopadding {
+	PADDING-LEFT: 0px; WIDTH: 306px
+}
+.box .error {
+	PADDING-LEFT: 14px; BACKGROUND: url(pwd_sprite.png) no-repeat 0px -342px; COLOR: #f66
+}
+.box .ok {
+	PADDING-LEFT: 14px; BACKGROUND: url(ok.png) no-repeat 0px 11px; COLOR: #48a309
+}
+.box .tip {
+	BACKGROUND: 0px 50%; COLOR: #808080
+}
+.info TABLE {
+	MARGIN-LEFT: 6px
+}
+.info TD {
+	WIDTH: 233px; HEIGHT: 35px; VERTICAL-ALIGN: middle
+}
+.box_1 .item {
+	HEIGHT: 40px; PADDING-TOP: 0px
+}
+.box_1 .ipt_box {
+	HEIGHT: 40px
+}
+.box_1 .info {
+	HEIGHT: 40px; PADDING-TOP: 0px
+}
+.box .method_box {
+	PADDING-LEFT: 0px; WIDTH: 306px
+}
+.box .method_box A {
+	LINE-HEIGHT: 18px; PADDING-LEFT: 20px; DISPLAY: inline-block; BACKGROUND: url(ipt.png) no-repeat -300px -321px; HEIGHT: 18px; CURSOR: pointer; MARGIN-RIGHT: 6px
+}
+.box .method_box A.checked {
+	BACKGROUND: url(ipt.png) no-repeat -300px -353px
+}
+.box .ipt_box .ipt_other {
+	POSITION: relative; HEIGHT: 50px
+}
+.box .ipt_box .ipt_self {
+	POSITION: relative; HEIGHT: 50px
+}
+.box .ipt_box .ipt_self INPUT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 8px; LINE-HEIGHT: 18px; PADDING-LEFT: 8px; WIDTH: 181px; PADDING-RIGHT: 8px; DISPLAY: block; BACKGROUND: url(ipt.png) no-repeat 0px -176px; FLOAT: left; HEIGHT: 19px; FONT-SIZE: 14px; BORDER-TOP: 0px; MARGIN-RIGHT: 4px; BORDER-RIGHT: 0px; PADDING-TOP: 8px
+}
+.box .ipt_box .ipt_self INPUT.focus {
+	BACKGROUND: url(ipt.png) no-repeat 0px -211px
+}
+.box .ipt_box .ipt_self .outer {
+	POSITION: relative; WIDTH: 99px; BACKGROUND: url(ipt.png) no-repeat -166px -70px; FLOAT: left; HEIGHT: 35px; CURSOR: default
+}
+.box .ipt_box .ipt_self .outer DIV {
+	PADDING-BOTTOM: 8px; LINE-HEIGHT: 19px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 3px; OUTLINE-WIDTH: 0px; PADDING-RIGHT: 0px; HEIGHT: 19px; COLOR: #696c6e; FONT-SIZE: 12px; PADDING-TOP: 8px
+}
+.box .ipt_box .ipt_self .outer DIV.focus {
+	BACKGROUND: url(ipt.png) no-repeat -166px -105px
+}
+.box .ipt_box .ipt_self .outer UL {
+	BORDER-BOTTOM: #57a8e4 1px solid; POSITION: absolute; BORDER-LEFT: #57a8e4 1px solid; WIDTH: 97px; BACKGROUND: #f3f9fc; BORDER-TOP: #57a8e4 1px solid; TOP: 35px; BORDER-RIGHT: #57a8e4 1px solid; LEFT: 0px
+}
+.box .ipt_box .ipt_self .outer UL LI {
+	LINE-HEIGHT: 20px; CURSOR: default
+}
+.box .ipt_box .ipt_self .outer UL LI {
+	LINE-HEIGHT: 20px; CURSOR: default
+}
+.box .ipt_box .ipt_self .outer UL LI.hover {
+	BACKGROUND: #57a8e4
+}
+.sea_area_value_bg {
+	POSITION: relative; WIDTH: 300px; BACKGROUND: url(ipt.png) no-repeat 0px -523px; HEIGHT: 35px; CURSOR: default
+}
+.sea_area_value_bg_focus {
+	POSITION: relative; WIDTH: 300px; BACKGROUND: url(ipt.png) no-repeat 0px -523px; HEIGHT: 35px; CURSOR: default
+}
+.sea_area_value_bg_focus {
+	BACKGROUND-POSITION: 0px -561px
+}
+.sea_country_input {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 8px; LINE-HEIGHT: 18px; PADDING-LEFT: 8px; WIDTH: 284px; PADDING-RIGHT: 8px; DISPLAY: inline-block; BACKGROUND: 0px 0px; HEIGHT: 18px; COLOR: #696c6e; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 8px
+}
+.sea_country_input:hover {
+	COLOR: #696c6e
+}
+.sea_phone_num_bg {
+	PADDING-BOTTOM: 8px; LINE-HEIGHT: 18px; PADDING-LEFT: 8px; WIDTH: 181px; PADDING-RIGHT: 8px; DISPLAY: block; BACKGROUND: url(ipt.png) no-repeat 0px -176px; FLOAT: left; HEIGHT: 19px; FONT-SIZE: 14px; MARGIN-RIGHT: 4px; PADDING-TOP: 8px
+}
+.sea_phone_num_bg_focus {
+	PADDING-BOTTOM: 8px; LINE-HEIGHT: 18px; PADDING-LEFT: 8px; WIDTH: 181px; PADDING-RIGHT: 8px; DISPLAY: block; BACKGROUND: url(ipt.png) no-repeat 0px -176px; FLOAT: left; HEIGHT: 19px; FONT-SIZE: 14px; MARGIN-RIGHT: 4px; PADDING-TOP: 8px
+}
+.sea_phone_num_bg_focus {
+	BACKGROUND-POSITION: 0px -211px
+}
+.sea_phone_num_prefix {
+	DISPLAY: inline-block; HEIGHT: 19px; COLOR: #4199d7
+}
+.sea_country_box {
+	Z-INDEX: 1000; POSITION: relative; LINE-HEIGHT: 35px; WIDTH: 300px; FLOAT: left; HEIGHT: 35px
+}
+.sea_country_box .combox-list {
+	Z-INDEX: 1000; BORDER-BOTTOM: #57a8e4 1px solid; POSITION: absolute; BORDER-LEFT: #57a8e4 1px solid; PADDING-BOTTOM: 1px; OVERFLOW-X: hidden; PADDING-LEFT: 1px; WIDTH: 296px; PADDING-RIGHT: 1px; BACKGROUND: #f3f9fc 0px 0px; MAX-HEIGHT: 80px; BORDER-TOP: #57a8e4 1px solid; TOP: 35px; CURSOR: auto; BORDER-RIGHT: #57a8e4 1px solid; PADDING-TOP: 1px; LEFT: 0px; _height: 80px
+}
+.sea_country_box .combox-list LI {
+	LINE-HEIGHT: 20px; PADDING-LEFT: 3px; HEIGHT: 20px; OVERFLOW: hidden; CURSOR: default
+}
+.phone_num_placeholder {
+	POSITION: absolute; PADDING-BOTTOM: 8px; LINE-HEIGHT: 18px; PADDING-LEFT: 10px; PADDING-RIGHT: 8px; HEIGHT: 18px; COLOR: #aaa; CURSOR: text; PADDING-TOP: 8px
+}
+.phone_box_land {
+	Z-INDEX: 1000; WIDTH: 746px
+}
+.phone_box_land .sea_phone {
+	Z-INDEX: 1000; DISPLAY: none
+}
+.phone_box_land .land_phone {
+	Z-INDEX: 0
+}
+.hover {
+	BACKGROUND: #57a8e4
+}
+.box .self {
+	PADDING-LEFT: 0px; WIDTH: 306px
+}
+.box .other {
+	PADDING-LEFT: 0px; WIDTH: 306px
+}
+.box .self .ipt_other {
+	DISPLAY: none
+}
+.box .self .ipt_self {
+	DISPLAY: block
+}
+.box .other .ipt_other {
+	POSITION: relative; DISPLAY: block
+}
+.box .other .ipt_other .other_email_ul {
+	BORDER-BOTTOM: #57a8e4 1px solid; POSITION: absolute; BORDER-LEFT: #57a8e4 1px solid; WIDTH: 298px; BACKGROUND: #f3f9fc 0px 0px; HEIGHT: auto; BORDER-TOP: #57a8e4 1px solid; TOP: 35px; BORDER-RIGHT: #57a8e4 1px solid; LEFT: 0px
+}
+.box .other .ipt_other .other_email_ul LI {
+	LINE-HEIGHT: 20px; HEIGHT: 20px; CURSOR: default
+}
+.box .other .ipt_other .other_email_ul P {
+	LINE-HEIGHT: 20px; PADDING-LEFT: 2px
+}
+.box .other .ipt_other .other_email_ul .hover {
+	BACKGROUND: #57a8e4
+}
+.box .other .ipt_self {
+	DISPLAY: none
+}
+.box .other .ipt_self INPUT {
+	BACKGROUND: 0px 50%
+}
+.box .other .ipt_self .outer {
+	BACKGROUND: 0px 50%
+}
+.box_2 .ipt_box {
+	Z-INDEX: 99
+}
+.box_2 .ipt_box LI {
+	PADDING-LEFT: 2px
+}
+.box_2 INPUT {
+	IME-MODE: disabled
+}
+.box_4 .empty {
+	PADDING-LEFT: 70px; WIDTH: 163px; BACKGROUND: url(pwd_sprite.png) no-repeat; FLOAT: left; HEIGHT: 15px
+}
+.box_4 .rankLow {
+	PADDING-LEFT: 70px; WIDTH: 163px; BACKGROUND: url(pwd_sprite.png) no-repeat; FLOAT: left; HEIGHT: 15px
+}
+.box_4 .rankMiddle {
+	PADDING-LEFT: 70px; WIDTH: 163px; BACKGROUND: url(pwd_sprite.png) no-repeat; FLOAT: left; HEIGHT: 15px
+}
+.box_4 .rankHigh {
+	PADDING-LEFT: 70px; WIDTH: 163px; BACKGROUND: url(pwd_sprite.png) no-repeat; FLOAT: left; HEIGHT: 15px
+}
+.box_4 .empty {
+	BACKGROUND-POSITION: -6px 0px
+}
+.box_4 .rankLow {
+	BACKGROUND-POSITION: 0px -100px; COLOR: #ff9c3a
+}
+.box_4 .rankMiddle {
+	BACKGROUND-POSITION: 0px -142px; COLOR: #61d01c
+}
+.box_4 .rankHigh {
+	BACKGROUND-POSITION: 0px -190px; COLOR: #61d01c
+}
+.box .nick_ipt_box {
+	Z-INDEX: 0
+}
+.box .sex_box A {
+	LINE-HEIGHT: 18px; PADDING-LEFT: 20px; DISPLAY: inline-block; BACKGROUND: url(ipt.png) no-repeat -300px -322px; HEIGHT: 18px; CURSOR: pointer; MARGIN-RIGHT: 30px
+}
+.box .sex_box A.unchecked {
+	BACKGROUND: url(ipt.png) no-repeat -300px -322px
+}
+.box .sex_box A.checked {
+	BACKGROUND: url(ipt.png) no-repeat -300px -354px
+}
+.box .sex_box A.unchecked_focus {
+	BACKGROUND: url(ipt.png) no-repeat -300px -385px
+}
+.box .sex_box A.checked_focus {
+	BACKGROUND: url(ipt.png) no-repeat -300px -417px
+}
+.box_6 .item {
+	HEIGHT: 40px; PADDING-TOP: 0px
+}
+.box_6 .ipt_box {
+	HEIGHT: 40px
+}
+.box_6 .info {
+	HEIGHT: 40px; PADDING-TOP: 0px
+}
+.box_6 .ok {
+	BACKGROUND: url(ok.png) no-repeat 0px 5px
+}
+.box_7 #birthday_type_value {
+	MARGIN: 0px; PADDING-LEFT: 5px; DISPLAY: inline-block
+}
+.box_7 #year_value {
+	MARGIN: 0px; PADDING-LEFT: 5px; DISPLAY: inline-block
+}
+.box_7 #month_value {
+	MARGIN: 0px; PADDING-LEFT: 5px; DISPLAY: inline-block
+}
+.box_7 #day_value {
+	MARGIN: 0px; PADDING-LEFT: 5px; DISPLAY: inline-block
+}
+.box_7 #birthday_type_value {
+	WIDTH: 55px
+}
+.box_7 #year_value {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; LINE-HEIGHT: 23px; WIDTH: 101px; BACKGROUND: 0px 50%; HEIGHT: 23px; COLOR: #4199d7; BORDER-TOP: medium none; BORDER-RIGHT: medium none; _height: 21px
+}
+.box_7 #month_value {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; LINE-HEIGHT: 23px; WIDTH: 55px; HEIGHT: 23px; COLOR: #4199d7; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.box_7 #day_value {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; LINE-HEIGHT: 23px; WIDTH: 55px; HEIGHT: 23px; COLOR: #4199d7; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.box .ipt_box #birthday_type_box {
+	WIDTH: 60px; BACKGROUND: url(ipt.png) no-repeat -197px -176px; FLOAT: left; HEIGHT: 23px; MARGIN-RIGHT: 4px
+}
+.box .ipt_box .birthday_type_box_focus {
+	BACKGROUND: url(ipt.png) no-repeat -197px -199px
+}
+.box .ipt_box #year_box {
+	WIDTH: 106px; FLOAT: left; HEIGHT: 23px; MARGIN-RIGHT: 4px
+}
+.box .ipt_box .year_bg_txt {
+	WIDTH: 106px; HEIGHT: 23px
+}
+.box .ipt_box .year_bg_focus {
+	WIDTH: 106px; HEIGHT: 23px
+}
+.box .ipt_box .year_bg_txt {
+	BACKGROUND: url(ipt.png) no-repeat 0px -246px
+}
+.box .ipt_box .year_bg_focus {
+	BACKGROUND: url(ipt.png) no-repeat 0px -269px
+}
+.box .ipt_box #month_box {
+	WIDTH: 60px; FLOAT: left; HEIGHT: 23px; MARGIN-RIGHT: 4px
+}
+.box .ipt_box .month_value {
+	BACKGROUND: url(ipt.png) no-repeat -197px -176px
+}
+.box .ipt_box .month_value_focus {
+	BACKGROUND: url(ipt.png) no-repeat -197px -199px
+}
+.box .ipt_box #day_box {
+	WIDTH: 60px; FLOAT: left; HEIGHT: 23px
+}
+.box .ipt_box .day_value {
+	BACKGROUND: url(ipt.png) no-repeat -197px -176px
+}
+.box .ipt_box .day_value_focus {
+	BACKGROUND: url(ipt.png) no-repeat -197px -199px
+}
+.box_7 .item {
+	HEIGHT: 39px; PADDING-TOP: 1px; _height: 38px; _padding-top: 2px
+}
+.box_7 .ipt_box {
+	Z-INDEX: 10; HEIGHT: 40px
+}
+.box_7 .info {
+	LINE-HEIGHT: 20px; BACKGROUND-POSITION: left 4px; HEIGHT: 40px; PADDING-TOP: 0px
+}
+.box_7 .info TD {
+	HEIGHT: 23px
+}
+.box_7 .error {
+	BACKGROUND-POSITION: 0px -348px
+}
+.box_8 .error {
+	BACKGROUND-POSITION: 0px -348px
+}
+.box_7 .birthdayTip {
+	PADDING-LEFT: 14px; BACKGROUND: url(ok.png) no-repeat 0px 4px; COLOR: #808080
+}
+.box_7 .gray {
+	LINE-HEIGHT: 20px; PADDING-LEFT: 2px; COLOR: #808080
+}
+.box_7 .ipt_box .value_box {
+	LINE-HEIGHT: 23px; WORD-WRAP: break-word; HEIGHT: 23px; MARGIN-LEFT: 5px; OVERFLOW: hidden
+}
+.box_7 .ipt_box LI {
+	LINE-HEIGHT: 20px; PADDING-LEFT: 2px; CURSOR: default
+}
+.box_7 .ipt_box LI.hover {
+	BACKGROUND: #57a8e4
+}
+.box_7 #birthday_type_box {
+	POSITION: relative
+}
+.box_7 #year_box {
+	POSITION: relative
+}
+.box_7 #month_box {
+	POSITION: relative
+}
+.box_7 #day_box {
+	POSITION: relative
+}
+.focus_date {
+	BACKGROUND: url(http://6.url.cn/zc/chs/img/type.png) no-repeat 0px 0px
+}
+.box_7 #birthday_type_ul {
+	BORDER-BOTTOM: #57a8e4 1px solid; POSITION: absolute; BORDER-LEFT: #57a8e4 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; WIDTH: 56px; PADDING-RIGHT: 1px; BACKGROUND: #f3f9fc; HEIGHT: 40px; OVERFLOW: hidden; BORDER-TOP: #57a8e4 1px solid; TOP: 23px; BORDER-RIGHT: #57a8e4 1px solid; PADDING-TOP: 1px; LEFT: 0px
+}
+.box_7 #year_ul {
+	BORDER-BOTTOM: #57a8e4 1px solid; POSITION: absolute; BORDER-LEFT: #57a8e4 1px solid; PADDING-BOTTOM: 1px; OVERFLOW-Y: scroll; PADDING-LEFT: 1px; WIDTH: 102px; PADDING-RIGHT: 1px; BACKGROUND: #f3f9fc; HEIGHT: 150px; BORDER-TOP: #57a8e4 1px solid; TOP: 23px; BORDER-RIGHT: #57a8e4 1px solid; PADDING-TOP: 1px; LEFT: 0px
+}
+.box_7 #month_ul {
+	BORDER-BOTTOM: #57a8e4 1px solid; POSITION: absolute; BORDER-LEFT: #57a8e4 1px solid; PADDING-BOTTOM: 1px; OVERFLOW-Y: scroll; PADDING-LEFT: 1px; WIDTH: 56px; PADDING-RIGHT: 1px; BACKGROUND: #f3f9fc; HEIGHT: 150px; BORDER-TOP: #57a8e4 1px solid; TOP: 23px; BORDER-RIGHT: #57a8e4 1px solid; PADDING-TOP: 1px; LEFT: 0px
+}
+.box_7 #day_ul {
+	BORDER-BOTTOM: #57a8e4 1px solid; POSITION: absolute; BORDER-LEFT: #57a8e4 1px solid; PADDING-BOTTOM: 1px; OVERFLOW-Y: scroll; PADDING-LEFT: 1px; WIDTH: 56px; PADDING-RIGHT: 1px; BACKGROUND: #f3f9fc; HEIGHT: 150px; BORDER-TOP: #57a8e4 1px solid; TOP: 23px; BORDER-RIGHT: #57a8e4 1px solid; PADDING-TOP: 1px; LEFT: 0px
+}
+#country_box {
+	POSITION: relative; LINE-HEIGHT: 23px; WIDTH: 101px; FLOAT: left; HEIGHT: 23px
+}
+#province_box {
+	POSITION: relative; LINE-HEIGHT: 23px; WIDTH: 101px; FLOAT: left; HEIGHT: 23px
+}
+#city_box {
+	POSITION: relative; LINE-HEIGHT: 23px; WIDTH: 101px; FLOAT: left; HEIGHT: 23px
+}
+.box .ipt_box .country_value {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; LINE-HEIGHT: 23px; PADDING-LEFT: 5px; WIDTH: 92px; DISPLAY: inline-block; BACKGROUND: 0px 50%; HEIGHT: 23px; COLOR: #4199d7; BORDER-TOP: medium none; BORDER-RIGHT: medium none; _height: 21px
+}
+.box .ipt_box .province_value {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; LINE-HEIGHT: 23px; PADDING-LEFT: 5px; WIDTH: 92px; DISPLAY: inline-block; BACKGROUND: 0px 50%; HEIGHT: 23px; COLOR: #4199d7; BORDER-TOP: medium none; BORDER-RIGHT: medium none; _height: 21px
+}
+.box .ipt_box .city_value {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; LINE-HEIGHT: 23px; PADDING-LEFT: 5px; WIDTH: 92px; DISPLAY: inline-block; BACKGROUND: 0px 50%; HEIGHT: 23px; COLOR: #4199d7; BORDER-TOP: medium none; BORDER-RIGHT: medium none; _height: 21px
+}
+.box .ipt_box .area_value_bg_focus {
+	LINE-HEIGHT: 23px; WIDTH: 97px; HEIGHT: 23px
+}
+.box .ipt_box .area_value_bg {
+	LINE-HEIGHT: 23px; WIDTH: 97px; HEIGHT: 23px
+}
+.box .ipt_box .area_value_bg_focus {
+	BACKGROUND: url(ipt.png) no-repeat -106px -269px
+}
+.box .ipt_box .area_value_bg {
+	BACKGROUND: url(ipt.png) no-repeat -106px -246px
+}
+.box .ipt_box #country_box UL {
+	BORDER-BOTTOM: #57a8e4 1px solid; POSITION: absolute; BORDER-LEFT: #57a8e4 1px solid; PADDING-BOTTOM: 1px; OVERFLOW-X: hidden; OVERFLOW-Y: scroll; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BACKGROUND: #f3f9fc; MAX-HEIGHT: 200px; BORDER-TOP: #57a8e4 1px solid; TOP: 23px; CURSOR: auto; BORDER-RIGHT: #57a8e4 1px solid; PADDING-TOP: 1px; LEFT: 0px; _height: 200px
+}
+.box .ipt_box #province_box UL {
+	BORDER-BOTTOM: #57a8e4 1px solid; POSITION: absolute; BORDER-LEFT: #57a8e4 1px solid; PADDING-BOTTOM: 1px; OVERFLOW-X: hidden; OVERFLOW-Y: scroll; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BACKGROUND: #f3f9fc; MAX-HEIGHT: 200px; BORDER-TOP: #57a8e4 1px solid; TOP: 23px; CURSOR: auto; BORDER-RIGHT: #57a8e4 1px solid; PADDING-TOP: 1px; LEFT: 0px; _height: 200px
+}
+.box .ipt_box #city_box UL {
+	BORDER-BOTTOM: #57a8e4 1px solid; POSITION: absolute; BORDER-LEFT: #57a8e4 1px solid; PADDING-BOTTOM: 1px; OVERFLOW-X: hidden; OVERFLOW-Y: scroll; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BACKGROUND: #f3f9fc; MAX-HEIGHT: 200px; BORDER-TOP: #57a8e4 1px solid; TOP: 23px; CURSOR: auto; BORDER-RIGHT: #57a8e4 1px solid; PADDING-TOP: 1px; LEFT: 0px; _height: 200px
+}
+.box .ipt_box #country_box .noSearchResult {
+	BORDER-BOTTOM: #57a8e4 1px solid; POSITION: absolute; BORDER-LEFT: #57a8e4 1px solid; PADDING-BOTTOM: 1px; OVERFLOW-X: hidden; OVERFLOW-Y: hidden; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BACKGROUND: #f3f9fc; HEIGHT: 20px; BORDER-TOP: #57a8e4 1px solid; TOP: 23px; CURSOR: auto; BORDER-RIGHT: #57a8e4 1px solid; PADDING-TOP: 1px; LEFT: 0px
+}
+.box .ipt_box #province_box .noSearchResult {
+	BORDER-BOTTOM: #57a8e4 1px solid; POSITION: absolute; BORDER-LEFT: #57a8e4 1px solid; PADDING-BOTTOM: 1px; OVERFLOW-X: hidden; OVERFLOW-Y: hidden; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BACKGROUND: #f3f9fc; HEIGHT: 20px; BORDER-TOP: #57a8e4 1px solid; TOP: 23px; CURSOR: auto; BORDER-RIGHT: #57a8e4 1px solid; PADDING-TOP: 1px; LEFT: 0px
+}
+.box .ipt_box #city_box .noSearchResult {
+	BORDER-BOTTOM: #57a8e4 1px solid; POSITION: absolute; BORDER-LEFT: #57a8e4 1px solid; PADDING-BOTTOM: 1px; OVERFLOW-X: hidden; OVERFLOW-Y: hidden; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BACKGROUND: #f3f9fc; HEIGHT: 20px; BORDER-TOP: #57a8e4 1px solid; TOP: 23px; CURSOR: auto; BORDER-RIGHT: #57a8e4 1px solid; PADDING-TOP: 1px; LEFT: 0px
+}
+.box .ipt_box .disable_box {
+	BACKGROUND: url(ipt.png) no-repeat 0px -397px
+}
+.box_8 .ipt_box LI {
+	PADDING-LEFT: 3px
+}
+.box .ipt_box .value_box {
+	LINE-HEIGHT: 23px; WORD-WRAP: break-word; HEIGHT: 23px; MARGIN-LEFT: 5px; OVERFLOW: hidden
+}
+.box_8 .item {
+	HEIGHT: 40px; PADDING-TOP: 0px
+}
+.box_8 .ipt_box {
+	Z-INDEX: 9; HEIGHT: 40px
+}
+.box_8 .info {
+	HEIGHT: 40px; PADDING-TOP: 0px
+}
+.box_8 .info TD {
+	HEIGHT: 23px
+}
+.box_8 .error {
+	background-postion-y: 5px
+}
+.box_8 .ok {
+	PADDING-LEFT: 14px; BACKGROUND: url(ok.png) no-repeat 0px 6px
+}
+.box .ipt_box #country_box UL {
+	WIDTH: 163px
+}
+.box .ipt_box #province_box UL {
+	WIDTH: 93px
+}
+.box .ipt_box #city_box UL {
+	WIDTH: 93px
+}
+.box .ipt_box #country_box UL LI {
+	LINE-HEIGHT: 20px; HEIGHT: 20px; OVERFLOW: hidden; CURSOR: default
+}
+.box .ipt_box #province_box UL LI {
+	LINE-HEIGHT: 20px; HEIGHT: 20px; OVERFLOW: hidden; CURSOR: default
+}
+.box .ipt_box #city_box UL LI {
+	LINE-HEIGHT: 20px; HEIGHT: 20px; OVERFLOW: hidden; CURSOR: default
+}
+.box .ipt_box #country_box UL LI.hover {
+	BACKGROUND: #57a8e4
+}
+.box .ipt_box #province_box UL LI.hover {
+	BACKGROUND: #57a8e4
+}
+.box .ipt_box #city_box UL LI.hover {
+	BACKGROUND: #57a8e4
+}
+.focus_loc {
+	BACKGROUND: url(http://6.url.cn/zc/chs/img/type.png) no-repeat 0px 0px
+}
+.box_9 .item {
+	HEIGHT: 49px; PADDING-TOP: 15px
+}
+.box_9 .ipt_box {
+	PADDING-LEFT: 0px; WIDTH: 306px
+}
+.box_9 .ipt_box INPUT {
+	FONT-WEIGHT: bold
+}
+.box_9 .code_bg {
+	HEIGHT: 64px
+}
+.box_9 .code_bg INPUT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 8px; LINE-HEIGHT: 38px; PADDING-LEFT: 8px; WIDTH: 150px; PADDING-RIGHT: 8px; BACKGROUND: url(ipt.png) 0px -70px; FLOAT: left; HEIGHT: 37px; FONT-SIZE: 24px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 8px
+}
+.box_9 .code_bg INPUT.focus {
+	BACKGROUND: url(ipt.png) 0px -123px
+}
+.box_9 .info {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 248px; PADDING-RIGHT: 0px; HEIGHT: 74px; PADDING-TOP: 0px
+}
+.box_9 INPUT {
+	IME-MODE: disabled; FONT-FAMILY: Verdana, Geneva, sans-serif
+}
+.box_9 .info SPAN {
+	PADDING-LEFT: 15px; DISPLAY: inline-block; BACKGROUND: url(pwd_sprite.png) no-repeat 0px -353px; COLOR: #f00
+}
+.box_9 .info SPAN.change {
+	PADDING-LEFT: 0px; MARGIN-BOTTOM: 0px; BACKGROUND: 0px 50%; COLOR: #4199d7; CURSOR: pointer
+}
+.box_9 .info SPAN.tips {
+	PADDING-LEFT: 0px; BACKGROUND: 0px 50%; COLOR: #808080
+}
+.box_10 .item {
+	HEIGHT: 25px; PADDING-TOP: 0px
+}
+.box_10 .qzone_box {
+	HEIGHT: 25px
+}
+.box_10 .qzone_box A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 18px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; DISPLAY: inline-block; BACKGROUND: url(ipt.png) no-repeat -300px -253px; HEIGHT: 18px; COLOR: #000; CURSOR: pointer; PADDING-TOP: 0px
+}
+.box_10 .qzone_box .checked {
+	BACKGROUND: url(ipt.png) no-repeat -300px -292px; COLOR: inherit
+}
+.box_10 .qzone_box .unchecked {
+	BACKGROUND: url(ipt.png) no-repeat -300px -253px; COLOR: #808080
+}
+.box_10 .qzone_box .checked_focus {
+	BACKGROUND: url(ipt.png) no-repeat -300px -478px; COLOR: inherit
+}
+.box_10 .qzone_box .unchecked_focus {
+	BACKGROUND: url(ipt.png) no-repeat -300px -446px; COLOR: #808080
+}
+.box_11 {
+	HEIGHT: 90px
+}
+.box_11 .ipt_box {
+	PADDING-LEFT: 0px; BACKGROUND: 0px 50%; HEIGHT: 90px
+}
+.box_11 .ipt_box .agree_box {
+	HEIGHT: 35px
+}
+.box_11 .ipt_box .agree_box .a_1 {
+	LINE-HEIGHT: 18px; PADDING-LEFT: 20px; DISPLAY: block; BACKGROUND: url(ipt.png) no-repeat -300px -253px; FLOAT: left; HEIGHT: 18px; COLOR: #f00; CURSOR: pointer; MARGIN-RIGHT: 10px
+}
+.box_11 .ipt_box .agree_box .checked {
+	BACKGROUND: url(ipt.png) no-repeat -300px -292px; COLOR: #000
+}
+.box_11 .ipt_box .agree_box .unchecked {
+	BACKGROUND: url(ipt.png) no-repeat -300px -253px; COLOR: #808080
+}
+.box_11 .ipt_box .agree_box .checked_focus {
+	BACKGROUND: url(ipt.png) no-repeat -300px -478px; COLOR: #000
+}
+.box_11 .ipt_box .agree_box .unchecked_focus {
+	BACKGROUND: url(ipt.png) no-repeat -300px -446px; COLOR: #808080
+}
+.box_11 .ipt_box .agree_box .x_box {
+	POSITION: relative; FLOAT: left; TOP: 3px; CURSOR: pointer
+}
+.box_11 .ipt_box .agree_box .x_box DIV {
+	Z-INDEX: 1; POSITION: relative; WIDTH: 19px; BACKGROUND: url(pwd_sprite.png) #f8fdff no-repeat -35px -319px; HEIGHT: 13px
+}
+.box_11 .ipt_box .agree_box .x_box P {
+	Z-INDEX: 0; BORDER-BOTTOM: #74b4ef 1px solid; POSITION: absolute; BORDER-LEFT: #74b4ef 1px solid; WIDTH: 161px; DISPLAY: none; BORDER-TOP: #74b4ef 1px solid; TOP: 12px; BORDER-RIGHT: #74b4ef 1px solid; LEFT: 0px
+}
+.box_11 .ipt_box .agree_box .show DIV {
+	BACKGROUND-POSITION: -16px -319px
+}
+.box_11 .ipt_box .agree_box .show P {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: block; PADDING-TOP: 5px
+}
+.box_11 .ipt_box .agree_box .show P A {
+	LINE-HEIGHT: 20px
+}
+.box_11 .ipt_box .submit INPUT {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: center; BORDER-LEFT: 0px; WIDTH: 183px; DISPLAY: inline-block; FONT: bold 22px/52px "??????"; BACKGROUND: url(ipt.png) no-repeat 0px -344px; HEIGHT: 52px; COLOR: #fff; BORDER-TOP: 0px; CURSOR: pointer; BORDER-RIGHT: 0px
+}
+.box_11 .ipt_box .submit INPUT.disabled {
+	BACKGROUND: url(ipt.png) no-repeat 0px -292px; COLOR: #888; CURSOR: default
+}
+.cover {
+	Z-INDEX: 100; POSITION: absolute; FILTER: Alpha(Opacity=30); WIDTH: 100%; DISPLAY: none; BACKGROUND: #000; HEIGHT: 900px; TOP: 0px; LEFT: 0px; opacity: .3
+}
+.box_ {
+	Z-INDEX: 101; POSITION: relative; MARGIN: 0px auto; WIDTH: 900px; HEIGHT: 0px
+}
+.chk_email_code {
+	Z-INDEX: 100; BORDER-BOTTOM: #74b4ef 1px solid; POSITION: absolute; BORDER-LEFT: #74b4ef 1px solid; WIDTH: 420px; DISPLAY: none; BACKGROUND: #fff; HEIGHT: 280px; BORDER-TOP: #74b4ef 1px solid; TOP: 200px; BORDER-RIGHT: #74b4ef 1px solid; LEFT: 250px
+}
+.chk_email_code A.close {
+	POSITION: absolute; WIDTH: 32px; BACKGROUND: url(close.png) no-repeat center center; HEIGHT: 32px; TOP: 1px; CURSOR: pointer; RIGHT: 1px
+}
+.chk_email_code H2 {
+	LINE-HEIGHT: 32px; PADDING-LEFT: 10px; BACKGROUND: #b4d8f3; HEIGHT: 32px; FONT-SIZE: 14px
+}
+.chk_email_code .div_1 {
+	POSITION: relative; MARGIN: 30px 0px; PADDING-LEFT: 70px; COLOR: #f00; FONT-WEIGHT: bold
+}
+.chk_email_code .div_1 .chkError {
+	POSITION: relative; WIDTH: 13px; DISPLAY: inline-block; BACKGROUND: url(pwd_sprite.png) no-repeat 0px -353px; HEIGHT: 13px; TOP: 2px
+}
+.chk_email_code .div_2 {
+	BACKGROUND: url(email_code_ipt.png) no-repeat 130px top; HEIGHT: 22px
+}
+.chk_email_code .div_2 SPAN {
+	TEXT-ALIGN: right; LINE-HEIGHT: 22px; WIDTH: 130px; PADDING-RIGHT: 2px; DISPLAY: inline-block
+}
+.chk_email_code .div_2 INPUT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; IME-MODE: disabled; WIDTH: 119px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.chk_email_code .div_3 {
+	LINE-HEIGHT: 30px; PADDING-LEFT: 130px
+}
+.chk_email_code .div_3 INPUT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 55px; BACKGROUND: url(mail_code_btn_chs.png) no-repeat; HEIGHT: 22px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.chk_email_code .div_3 A {
+	CURSOR: pointer
+}
+.chk_email_code .div_3 IMG {
+	CURSOR: pointer
+}
+#email_code_ipt_err {
+	DISPLAY: none; COLOR: #f00
+}
+A {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: 0px
+}
+.box_11 {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: 0px
+}
+.method_box .tahoma {
+	LINE-HEIGHT: 18px; FONT-FAMILY: Tahoma; HEIGHT: 18px; COLOR: #84a8c8
+}
+.method_box A:hover .tahoma {
+	COLOR: #4199d7
+}
+.method_box A:hover {
+	COLOR: #4199d7
+}
+#password {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#password_again {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.red_bg {
+	LINE-HEIGHT: 20px; BACKGROUND-COLOR: #c30; HEIGHT: 20px; COLOR: #fff
+}
+.paopao {
+	Z-INDEX: 10; POSITION: absolute; WHITE-SPACE: nowrap; BACKGROUND: url(pao_c.png) repeat-x 0px 0px; HEIGHT: 31px
+}
+.paopao .p_l {
+	POSITION: absolute; LINE-HEIGHT: 24px; PADDING-LEFT: 8px; DISPLAY: inline-block; BACKGROUND: url(pwd_sprite.png) no-repeat 0px -387px; HEIGHT: 31px; COLOR: #666; FONT-SIZE: 12px; TOP: 0px; FONT-WEIGHT: normal
+}
+.paopao .p_r {
+	POSITION: absolute; WIDTH: 5px; DISPLAY: inline-block; BACKGROUND: url(pwd_sprite.png) no-repeat 0px -423px; HEIGHT: 31px; RIGHT: 0px
+}
+.pwd_info {
+	POSITION: relative
+}
+.pwd_tips {
+	POSITION: absolute; WIDTH: 158px; BACKGROUND: url(pwd_sprite.png) no-repeat 0px 0px; HEIGHT: 71px; TOP: -18px; PADDING-TOP: 6px
+}
+.pwd_tips DIV {
+	LINE-HEIGHT: 22px; PADDING-LEFT: 18px; HEIGHT: 22px; MARGIN-LEFT: 15px
+}
+.pwd_tips .default {
+	BACKGROUND: url(pwd_sprite.png) no-repeat 0px -215px
+}
+.pwd_tips .yes {
+	BACKGROUND: url(pwd_sprite.png) no-repeat 0px -247px
+}
+.pwd_tips .no {
+	BACKGROUND: url(pwd_sprite.png) no-repeat 0px -281px
+}
+.pwd_info .password_info {
+	COLOR: #808080; VERTICAL-ALIGN: top
+}
+.phone_tips {
+	Z-INDEX: 100; WIDTH: 240px; TOP: -31px; LEFT: 190px
+}
+#phone_box {
+	POSITION: relative
+}
+.arrow {
+	POSITION: absolute; LINE-HEIGHT: 14px; WIDTH: 13px; BACKGROUND: url(pwd_sprite.png) no-repeat -40px -323px; HEIGHT: 8px; TOP: 7px; RIGHT: 1px
+}
+.web_notice {
+	Z-INDEX: 9999; POSITION: absolute; WIDTH: 100%; DISPLAY: none; BACKGROUND: #fff6cd; HEIGHT: 22px; LEFT: 0px
+}
+.web_notice_text {
+	TEXT-ALIGN: center; LINE-HEIGHT: 22px; MARGIN: 0px auto; WIDTH: 956px; FONT-FAMILY: Tahoma; COLOR: #5d6161
+}

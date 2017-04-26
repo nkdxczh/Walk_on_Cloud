@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/forum_release_title4"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/forum_release_title1" />
+
+            <EditText
+                android:id="@+id/txtPostName"
+                android:layout_width="0dip"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/txt_style"
+                android:hint="请输入帖子的标题"
+                android:inputType="text"
+                android:paddingLeft="8dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/forum_release_title2" />
+
+            <Spinner
+                android:id="@+id/spnPart"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp" >
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/forum_release_title3" />
+
+            <Spinner
+                android:id="@+id/spnType"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp" >
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/forum_release_title5" />
+
+            <EditText
+                android:id="@+id/txtPostName"
+                android:layout_width="0dip"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/txt_style"
+                android:hint="请输入帖子的标题"
+                android:inputType="text"
+                android:paddingLeft="8dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/forum_release_title6" />
+
+            <EditText
+                android:id="@+id/txtPostName"
+                android:layout_width="0dip"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/txt_style"
+                android:hint="请输入帖子的标题"
+                android:inputType="text"
+                android:paddingLeft="8dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <!-- 发帖按钮 -->
+
+        <Button
+            android:id="@+id/btnReleasePost"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_reg_style"
+            android:text="发帖"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <!-- 版权栏 -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:background="#FFFFFF"
+            android:gravity="center_vertical|center"
+            android:text="@string/copyright"
+            android:textColor="#ADADAD" />
+    </LinearLayout>
+
+</LinearLayout>

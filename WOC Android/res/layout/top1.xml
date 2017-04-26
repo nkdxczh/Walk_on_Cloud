@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="12dip"
+        tools:ignore="UselessParent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables" >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icon_application" 
+                android:contentDescription="@string/content_description"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:text="@string/app_name"
+                android:textColor="@color/lightgray"
+                android:textSize="18dip"
+                tools:ignore="SpUsage" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dip"
+                android:background="@color/black"
+                android:contentDescription="@string/content_description"/>
+
+            <ImageView
+                android:id="@+id/function"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dip"
+                android:src="@drawable/icon_function" 
+                android:contentDescription="@string/content_description"/>
+
+            <ImageView
+                android:id="@+id/operation"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icon_operation" 
+                android:contentDescription="@string/content_description"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

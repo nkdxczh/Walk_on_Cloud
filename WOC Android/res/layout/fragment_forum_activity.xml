@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDEDED" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#EDEDED"
+            android:orientation="vertical" >
+
+            <!-- 图片区 -->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:src="@drawable/activity_bg"
+                android:background="#FFFFFF"/>
+
+            <!-- 今日热门标题 -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/forum_index_title3"
+                android:textSize="20sp" />
+
+            <!-- 今日热门滑窗 -->
+
+            <LinearLayout
+                android:id="@+id/moviecontainer"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:background="#FFFFFF"
+                android:clipChildren="false"
+                android:gravity="center_horizontal"
+                android:layerType="software"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/movieviewpager"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="275dp"
+                    android:clipChildren="false" >
+                </android.support.v4.view.ViewPager>
+            </LinearLayout>
+
+            <!-- 帖子栏标题 -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/forum_movie_title1"
+                android:textSize="20sp" />
+
+            <!-- 添加一个ListView组件 -->
+
+            <ListView
+                android:id="@+id/lstMoviePosts"
+                android:layout_width="fill_parent"
+                android:layout_height="377dp" >
+            </ListView>
+
+            <!-- 版权栏 -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical|center"
+                android:text="@string/copyright"
+                android:textColor="#ADADAD" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
